@@ -1,6 +1,6 @@
 {
 	"name": "cloudflare-worker-starter",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": true,
 	"description": "Starting point to start with cloudflare workers with github actions to auto-deploy and semantic versioning to update the version.",
 	"scripts": {
