@@ -21,6 +21,9 @@ This project is a starter template for building applications using Cloudflare Wo
    cd cloudflare-worker-starter
    ```
 
+   **Change Name**:
+   In the package.json change the name as well as in the wrangler.toml file
+
 2. **Install Dependencies**:
    We use PNPM for package management. Install it globally if you haven't already:
 
@@ -43,6 +46,12 @@ This project is a starter template for building applications using Cloudflare Wo
    - Setup a couple variables in Github
      - `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` You should be able to create the API token for default workers setting in Cloudflare.
      - `GH_TOKEN` push access to repo.
+
+## ENV variables
+
+Use both a .dev.vars file to use env variables locally and set those with wranger for your worker:
+
+`npx wrangler secret put MY_VARIABLE_NAME`
 
 ## Additional Resources
 
